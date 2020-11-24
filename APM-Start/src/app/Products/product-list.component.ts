@@ -94,4 +94,7 @@ performFilter(filterBy : string): IProduct[]{
     ngOnInit():void{
       console.log('On Oninit');
     }
+    onRatingClicked(message : string):void{
+      this.pageTitle='Product List '+message;
+    }
 }
